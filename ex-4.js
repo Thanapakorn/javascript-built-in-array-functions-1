@@ -8,8 +8,10 @@ const todos = [
 
 function getCompletedTodo(todos) {
   // Start coding here
+  let todo = todos.filter(word => word.completed)
+  console.log(todo);
 }
-
+  
 getCompletedTodo(todos);
 
 /* 
